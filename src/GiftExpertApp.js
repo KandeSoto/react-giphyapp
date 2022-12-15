@@ -3,11 +3,11 @@ import { AddCategory } from "./components/AddCategory";
 import { GifGrid } from "./components/GifGrid";
 
 export function GiftExpertApp() {
-  const [categories, setCategories] = useState(["One Punch"]);
+  const [categories, setCategories] = useState(["zelda"]);
 
   return (
     <>
-      <h2>GiftExpertApp</h2>
+      <h2>Giphy Gif Api</h2>
       <AddCategory setCategories={setCategories} />
       <hr />
 
